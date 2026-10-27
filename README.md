@@ -61,8 +61,17 @@ Vercel은 `public/`의 정적 파일을 배포합니다. `server.mjs`는 로컬 
 
 ## 콘텐츠와 연락 기능
 
-이름, 전문 분야, 프로젝트명과 이메일은 사용자가 제공한 최신 정보를 사용했습니다. 전문 분야는 Marketing, Partnership, AI Creative, Contents이며 이메일은 `jeehee.kim.0217@gmail.com`입니다. 프로젝트 상세 설명은 예시임을 표시했습니다. LinkedIn과 이미지는 Stitch 원본을 유지했습니다. 개인 주소가 없는 소셜 채널은 서비스 홈페이지로 연결됩니다. 실제 프로젝트 링크가 있다면 `public/index.html`의 각 `project-card` 요소의 `href`를 변경하면 됩니다.
+이름, 전문 분야, 프로젝트명과 이메일은 사용자가 제공한 최신 정보를 사용했습니다. 전문 분야는 Marketing, Partnership, AI Creative, Contents이며 이메일은 `jeehee.kim.0217@gmail.com`입니다. 가상의 프로젝트 배경·기획·성과 설명은 제거하고, 확인되지 않은 세부 역할·기간·성과는 미기재로 남겼습니다. LinkedIn과 이미지는 Stitch 원본을 유지했습니다. GitHub는 `zee-0217` 계정으로, 개인 주소가 없는 Behance·Medium은 서비스 홈페이지로 연결됩니다. 실제 프로젝트 링크가 있다면 `public/index.html`의 각 `project-card` 요소의 `href`를 변경하면 됩니다.
 
 이메일 링크와 연락 폼은 기본 메일 앱을 엽니다. 폼은 서버로 전송하지 않으며, 메일 앱에서 직접 전송을 완료해야 합니다. Google Fonts 연결이 없으면 시스템 글꼴을 사용합니다. 이미지와 CSS, JavaScript는 로컬에서 로드됩니다.
 
 원본 `stitch-export/` 폴더는 보존했습니다.
+
+## 프로필 정보의 근거와 확인 범위
+
+- 경력·학력·언어·핵심 역량은 사용자가 제공한 LinkedIn 내보내기 파일 `Profile.pdf` 1–2페이지를 근거로 반영했습니다. 원본 PDF는 저장소나 정적 사이트에 추가하지 않았습니다.
+- LinkedIn URL: https://www.linkedin.com/in/jeehee-kim-b71b58180/
+- LinkedIn 웹 본문은 접근 제한으로 직접 확인하지 못했으므로, 실시간 프로필과 PDF의 내용이 동일하다고 단정하지 않습니다. 재직의 “현재”는 PDF 표기를 따른 것이며, 경력 기간을 임의로 재계산하지 않았습니다.
+- 이름·전문 분야·프로젝트명은 사용자가 직접 제공한 정보입니다. 프로젝트 3개의 세부 역할·기간·성과는 PDF에 없어 추정 내용을 제거했습니다.
+- 서울 거주, 가상 프로젝트 배경·기획, 검증되지 않은 성과는 기재하지 않았습니다. 디자인과 기존 이미지는 유지했습니다.
+- 자세한 반영 근거는 [docs/profile-sources.md](docs/profile-sources.md)에 정리했습니다.
