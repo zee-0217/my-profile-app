@@ -1,0 +1,13 @@
+{
+  "name": "jeehee-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "김지희 개인 프로필 정적 웹사이트",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
